@@ -59,13 +59,15 @@ satisfactionScore = int((polarity + 1) * 50)
   - `sentimental_analyzer.py` → Handles sentiment analysis and satisfaction scoring  
   - `main.py` → Entry point to start the chatbot  
 
-    LIAPLUS/
-    ├── main.py
-    ├── chatBot.py
-    ├── sentimental_analyzer.py
-    ├── requirements.txt
-    ├── README.md
-    └── tests/
+    ```
+        LIAPLUS/
+        ├── main.py
+        ├── chatBot.py
+        ├── sentimental_analyzer.py
+        ├── requirements.txt
+        ├── README.md
+        └── tests/
+    ```
 
 
 

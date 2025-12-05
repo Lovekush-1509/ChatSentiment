@@ -22,21 +22,21 @@ Key highlights:
 
 ### Step 1 — Clone the Repository
 
-`git clone https://github.com/Lovekush-1509/ChatSentiment.git`
-`cd LIAPLUS`
+```git clone https://github.com/Lovekush-1509/ChatSentiment.git```
+```cd LIAPLUS```
 
 ---
 
 ### Step 2 — Install Dependencies
 
-`pip install textblob`
+```pip install textblob```
 python -m textblob.download_corpora
 
 ---
 
 ### Step 3 — Run the Bot
 
-`python main.py`
+```python main.py```
 
 ---
 

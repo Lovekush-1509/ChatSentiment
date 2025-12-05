@@ -18,6 +18,37 @@ Key highlights:
 
 
 
+## How to Run
+
+### Step 1 — Clone the Repository
+
+git clone <your-repo-url>  
+cd LIAPLUS
+
+---
+
+### Step 2 — Install Dependencies
+
+pip install textblob  
+python -m textblob.download_corpora
+
+---
+
+### Step 3 — Run the Bot
+
+python main.py
+
+---
+
+### Step 4 — Use the Chatbot
+
+Type messages normally.  
+Type "exit" to end the conversation and view the final sentiment summary.
+
+---
+
+
+
 ## ✨ Features & Functionalities
 
 ### 1. Conversation Management

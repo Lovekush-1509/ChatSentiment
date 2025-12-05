@@ -60,9 +60,12 @@ Type "exit" to end the conversation and view the final sentiment summary.
 
 ## Technologies Used
 
-- **Language:** Python 3.x  
-- **Libraries:**  
-  - `textblob` → Sentiment analysis and polarity calculation   
+### Technologies Used
+
+- **Python 3** – Core programming language for chatbot logic and sentiment analysis.
+- **TextBlob** – Python library for natural language processing, used for sentiment analysis and polarity scoring.
+- **Automated Testing** – Python scripts with assertion-based testing for validating sentiment analysis outputs.
+- **Command-line Interface (CLI)** – User interacts with the chatbot via the terminal. 
 - **Structure:**  
   - `chatBot.py` → Handles chatbot logic and conversation flow  
   - `sentimental_analyzer.py` → Handles sentiment analysis and satisfaction scoring  
@@ -96,8 +99,11 @@ Type "exit" to end the conversation and view the final sentiment summary.
 
 - **Satisfaction levels** are computed as:  
 ```python```
-satisfactionScore = int((polarity + 1) * 50).
+```
 
+    satisfactionScore = int((polarity + 1) * 50).
+    
+```
 
 ---
 
@@ -171,6 +177,7 @@ Key Features:
 
 
 ---
+
 
 
 

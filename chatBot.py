@@ -54,6 +54,17 @@ class ChatBot:
         satisfactionLevel = self.analyzer.polarityScore(completeConversation)
 
 
+         # Mood Trend (Bonus)
+        positives = self.sentiments.count("Positive")
+        negatives = self.sentiments.count("Negative")
+        neutrals = self.sentiments.count("Neutral")
+
+        print("\nMood Trend:")
+        print(f"Positive: {positives}")
+        print(f"Negative: {negatives}")
+        print(f"Neutral : {neutrals}")
+
+
         print("\nFINAL OUTPUT:")
         print("Overall conversation sentiment:",overallSentiment,"-",satisfactionLevel)
         print("\n--------------------------------")

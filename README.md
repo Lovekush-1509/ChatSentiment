@@ -22,7 +22,7 @@ Key highlights:
 
 ### Step 1 — Clone the Repository
 
-git clone <your-repo-url>  
+git clone https://github.com/Lovekush-1509/ChatSentiment.git
 cd LIAPLUS
 
 ---

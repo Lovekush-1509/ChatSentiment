@@ -4,6 +4,10 @@ A **Python-based chatbot** that interacts with users and performs **sentiment an
 
 ---
 
+## Live Demo
+
+Check out the live app here: [ChatSentiment Live](https://chatsentiment-xprxstp34atxs2pc8rh2z9.streamlit.app/)
+
 ##  Project Overview
 
 **ChatSentimentBot** is designed to maintain the full conversation history while interacting with the user. At the end of the chat, it calculates the overall sentiment score, indicating whether the conversation mood is **Positive**, **Neutral**, or **Negative**.
